@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # ---------------------------------------------------------------------
 # shell script pour la machine à remonter le temps pour les musés 
@@ -6,64 +6,110 @@
 # WTFPL2.0
 # ---------------------------------------------------------------------
 
-# Le projet fonctionne sur sur Raspberry Pi, à partir de Raspbian 
+# le projet fonctionne sur sur Raspberry Pi, à partir de Raspbian 
 # Jessie, et avec les librairies PiWall, soit pwlibs et pwomxplayer 
 # pour les tiles, et av-libs pour le master.
 
-# Ce script sert à faire un pseudo handshake "à la HTTP", puis à SSH 
+# ce script sert à faire un pseudo handshake "à la HTTP", puis à SSH 
 # depuis le master vers les 3 tiles, et à lancer l'écoute de 
 # pwomxplayer, puis à lancer le broadcast.
 
 # ---------------------------------------------------------------------
-# La licence est à la fin du script
+# licence à la fin du script
 # ---------------------------------------------------------------------
 
+#---------------------------------------------------------------------
+# dépendances sur le master
+# - sshpass
+# - avconv (av-libs)
+# dépendances sur les tiles
+# - pwlibs
+# - pwomxplayer
+#---------------------------------------------------------------------
+
 # ---------------------------------------------------------------------
-# Plan :
+# # index :
 # function video_loop
-# function check_connectivity
+# function is_connected
 # function testit
+# function handshake
+# function make_listening
 # partie fonctionnelle
 # ---------------------------------------------------------------------
 
+
+
+
+tiles_ip=(192.168.1.76 192.168.1.77)
+broadcast_ip='udp://239.0.1.23:1234'
+
 # c'est la boucle principale, celle qui fait tout marcher en boucle
 video_loop () {
-	movie = $1
-	#while check_connectivity;
-	#do
+	find_movie
+	for ip in ${tiles_ip[@]}
+	do 
+		handshake $ip
+		make_listening $ip
+	done
+	while is_connected;
+	do
 		avconv \
 			-re \
 			-i $movie \
 			-vcodec copy \
 			-f avi \
-			-an udp://239.0.1.23:1234
-	#done
+			-an $broadcast_ip 
+	done
 }
 
 # cette fonction vérifie entre chaque boucle que les ordis soient biens 
-# connectés. C'est la solution simple pour arréter la boucle, 
+# connectés. C'est aussi une solution simple pour arrêter la boucle, 
 # déconnecter un Pi.
-check_connectivity () {
+is_connected () {
 	# TODO: vraiment implémenter cette fonction
-	return 0 
+	# handshake $tile_1['ip']
+	# handshake $tile_2['ip']
+	# handshake $tile_3['ip']
+	
+	for ip in ${tiles_ip[@]}
+	do
+		handshake $ip
+	done
 	# 0 is true in bash
 }
 
-find_movie() {
-	return movie.avi
+# cette fonction recherche la vidéo la plus récente sur le disque dur 
+# USB.
+find_movie () {
+	movie="/home/spoutnik16/borgia.avi"
 }
 
-testit () {
-	if check_connectivity
-	then
-		echo 'yes'
-	else
-		echo 'non'
-	fi
+# avec cette fonction on vérifie que le tile passé en variable est 
+# connecté
+handshake () {
+	for i in {1..20}
+	do
+		if ping -c1 $1 &> /dev/null
+		then
+			return 0
+		fi
+		sleep 1
+	done
 }
 
-testit
-video_loop find_movie
+
+
+make_listening() {
+	sshpass -p "raspberry" ssh -o StrictHostKeyChecking=no pi@$1 \
+		pwomxplayer \
+			--tile-code=21 \
+			udp://239.0.1.23:1234?buffer_size=12000000B &
+
+
+}
+
+video_loop
+
 
 # DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
 #                                              Version 2, December 2004
