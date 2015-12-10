@@ -1,4 +1,5 @@
 #! /bin/bash
+# coding: utf-8
 
 # ---------------------------------------------------------------------
 # shell script pour la machine à remonter le temps pour les musés
@@ -43,6 +44,7 @@
 # putain de listen
 
 import os
+import multiprocessing
 import time
 import paramiko
 
@@ -54,12 +56,12 @@ class Piwall:
                  password='raspberry',
                  broadcast_ip='udp://239.0.1.23:1234',
                  movie=None,
-                 tiles_ip=('192.168.1.77',)):
+                 tiles_ip=('192.168.1.77', '192.168.1.93', )):
         self.username = username
         self.password = password
         self.tiles_ip = tiles_ip
         self.broadcast_ip = broadcast_ip
-        self.movie = Movie(movie)
+        self.movie = "/media/pi/181A-6042/movie.mp4"
 
     def __del__(self):
         # close the pwomxplayer on the differents tiles, if possible
@@ -79,12 +81,44 @@ class Piwall:
         for ip in self.tiles_ip:
             self.handshake(ip)
             self.make_listening(ip)
-        time.sleep(5)
+        self.enable_audio()
+        print('handshake dones sleep 1')
+        self.run_first_loop()
+        time.sleep(15)
+        print('playing')
         os.system('while true; do avconv -re -i %(movie)s -vcodec copy -f avi -an %(broadcast_ip)s; done' %
                   {'movie': self.movie, 'broadcast_ip': self.broadcast_ip})
 
+    def _enable_audio(self):
+        return
+        os.system('pwomxplayer udp://239.2.2.3:2020?buffer_size=1200000B')
+        time.sleep(5)
+
+    def enable_audio(self):
+        p = multiprocessing.Process(target=self._enable_audio)
+
+    def first_video_loop(self):
+        os.system(
+            'avconv -re -i /media/pi/181A-6042/movie.mp4 -vcodec copy -f avi -an udp://239.0.1.23:1234')
+
+    def run_first_loop(self):
+        p = multiprocessing.Process(target=self.first_video_loop)
+        p.start()
+        time.sleep(5)
+        for i in range(1, 10):
+            print(p.pid)
+        p.terminate()
+        p.terminate()
+        pid1 = p.pid+1
+        pid2 = p.pid+2
+        os.system('sudo kill ' + pid1.__str__() + ' ' + pid2.__str__())
+
+    def test(self):
+        self.run_first_loop()
+
     def handshake(self, ip):
         for i in range(1, 20):
+            print('try handshake ' + ip)
             response = os.system("ping -c1 -w1 %(ip)s >/dev/null 2>&1"
                                  % {'ip': ip})
             if response == 0:
@@ -95,10 +129,12 @@ class Piwall:
 
     def make_listening(self, ip):
         client = paramiko.Transport((ip, 22))
+        print('connected to ' + ip)
         client.connect(username=self.username, password=self.password)
         session = client.open_channel(kind='session')
-        session.exec_command('pwomxplayer --tile-code=21 ' +
+        session.exec_command('pwomxplayer --config=marlt ' +
                              self.broadcast_ip + '?buffer_size=1200000B')
+        print('command launched')
 
 
 class Tile:
@@ -118,7 +154,7 @@ class Movie:
         if movie:
             self.movie = movie
         else:
-            movie = "/home/spoutnik16/borgia.avi"
+            movie = "/media/pi/181A-6042/movie.mp4"
 
     def __str__(self):
         return movie.__str__()
@@ -126,7 +162,6 @@ class Movie:
 
 if __name__ == "__main__":
     Piwall().video_loop()
-
 
 # DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 #                                              Version 2, December 2004

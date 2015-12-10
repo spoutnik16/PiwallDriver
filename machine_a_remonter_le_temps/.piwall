@@ -1,0 +1,35 @@
+# Machine à remonter le temps (3 plasmas borderless)
+
+[marlt_wall]
+width=4320
+height=1152
+x=0
+y=0
+
+# Les configurations des 3 tiles correspondantes
+[marlt_tile_1]
+wall=marlt_wall
+width=1440
+height=1152
+x=0
+y=0
+
+[marlt_tile_2]
+wall=marlt_wall
+width=1440
+height=1152
+x=1440
+y=0
+
+[marlt_tile_3]
+wall=marlt_wall
+width=1440
+height=1152
+x=2880
+y=0
+
+# config
+[marlt]
+piwall_tile1=marlt_tile_1
+piwall_tile2=marlt_tile_2
+piwall_tile3=marlt_tile_3
