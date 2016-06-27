@@ -1,0 +1,1020 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"broad",
+				"broadcast_ip	statement"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"verbo",
+				"verbose_name_plural"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/admin.theatreinterface/sandbox/settings.py",
+			"settings":
+			{
+				"buffer_size": 4586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/admin.theatreinterface/sandbox/urls.py",
+			"settings":
+			{
+				"buffer_size": 1870,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "tog sid",
+		"selected_items":
+		[
+			[
+				"tog sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"autof",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"autoform",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"to sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tog side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"autofor",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"togl side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"autoformat",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggl",
+				"Toggle Comment"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ana",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sspyd",
+				"Set Syntax: Python (Django)"
+			],
+			[
+				"anacon",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"INDENT",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"anaconda pe",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"anaconda",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"TAG",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit history"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git push ",
+				"Git: Push"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"gitx",
+				"GitX: Open GitX"
+			],
+			[
+				"django",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"Package Control",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/admin.theatreinterface/balconduciel",
+		"/var/www/admin.theatreinterface/compagnie/__pycache__",
+		"/var/www/admin.theatreinterface/sandbox",
+		"/var/www/admin.theatreinterface/sandbox/__pycache__",
+		"/var/www/admin.theatreinterface/show/migrations",
+		"/var/www/admin.theatreinterface/templates/balconduciel"
+	],
+	"file_history":
+	[
+		"/var/www/admin.theatreinterface/templates/iproduction/index.html",
+		"/var/www/admin.theatreinterface/templates/compagnie/show_detail.html",
+		"/var/www/admin.theatreinterface/templates/compagnie/menu.html",
+		"/var/www/admin.theatreinterface/templates/compagnie/index.html",
+		"/var/www/admin.theatreinterface/templates/balconduciel/index.html",
+		"/var/www/admin.theatreinterface/templates/base.html",
+		"/var/www/admin.theatreinterface/spectacles_lieux_bdd/models.py",
+		"/var/www/admin.theatreinterface/balconduciel/settings.py",
+		"/var/www/admin.theatreinterface/compagnie/settings.py",
+		"/var/www/admin.theatreinterface/sandbox/middleware.py",
+		"/var/www/admin.theatreinterface/sandbox/urls.py",
+		"/var/www/admin.theatreinterface/templates/spectacles_lieux_bdd/festival_list.html",
+		"/var/www/admin.theatreinterface/shows/models.py",
+		"/var/www/admin.theatreinterface/sandbox/__init__.py",
+		"/var/www/admin.theatreinterface/sandbox/settings.py",
+		"/var/www/admin.theatreinterface/sandbox/wsgi.py",
+		"/var/www/admin.theatreinterface/compagnie/models.py",
+		"/var/www/admin.theatreinterface/balconduciel/urls.py",
+		"/var/www/admin.theatreinterface/iproduction/urls.py",
+		"/var/www/admin.theatreinterface/compagnie/urls_all.py",
+		"/var/www/admin.theatreinterface/compagnie/urls.py",
+		"/var/www/admin.theatreinterface/sandbox/hosts.py",
+		"/var/www/admin.theatreinterface/requirements/base.txt",
+		"/var/www/admin.theatreinterface/templates/balconduciel/newsletter.html",
+		"/var/www/admin.theatreinterface/balconduciel/views.py",
+		"/var/www/admin.theatreinterface/templates/balconduciel/menu.html",
+		"/var/www/admin.theatreinterface/shows/migrate.py",
+		"/var/www/admin.theatreinterface/shows/admin.py",
+		"/var/www/admin.theatreinterface/show/models.py",
+		"/var/www/admin.theatreinterface/balconduciel/admin.py",
+		"/var/www/admin.theatreinterface/show/admin.py",
+		"/var/www/admin.theatreinterface/compagnie/views.py",
+		"/var/www/admin.theatreinterface/templates/compagnie/calendar.html",
+		"/var/www/admin.theatreinterface/templates/mea_compagnie.html",
+		"/var/www/admin.theatreinterface/theatre/urls.py",
+		"/var/www/admin.theatreinterface/static/menus/menu_nav.php",
+		"/var/www/admin.theatreinterface/reservations/models.py",
+		"/var/www/admin.theatreinterface/balconduciel/forms.py",
+		"/var/www/admin.theatreinterface/templates/reservations/mail.txt",
+		"/var/www/admin.theatreinterface/reservations/admin.py",
+		"/var/www/admin.theatreinterface/spectacles_lieux_bdd/migrations/0044_auto_20160328_1914.py",
+		"/var/www/admin.theatreinterface/templates/balconduciel/private_reservations.html",
+		"/var/www/admin.theatreinterface/spectacles_lieux_bdd/migrations/0044_auto_20160328_1854.py",
+		"/var/www/admin.theatreinterface/static/js/cal.js",
+		"/var/www/admin.theatreinterface/static/css/cal.css",
+		"/var/www/admin.theatreinterface/templates/spectacles_lieux_bdd/eventsgroup_detail.html",
+		"/var/www/admin.theatreinterface/static/css/main.css",
+		"/var/www/admin.theatreinterface/balconduciel/models.py",
+		"/var/www/admin.theatreinterface/templates/compagnie/eventsgroup_detail.html",
+		"/var/www/admin.theatreinterface/templates/spectacles_lieux_bdd/festival_detail.html",
+		"/var/www/admin.theatreinterface/reservations/forms.py",
+		"/var/www/admin.theatreinterface/balconduciel/urls_all.py",
+		"/var/www/admin.theatreinterface/templates/theatreiprod/index.html",
+		"/var/www/admin.theatreinterface/templates/theatreiprod/menu.html",
+		"/var/www/admin.theatreinterface/db.sqlite3",
+		"/var/www/admin.theatreinterface/db_entry_point.sh",
+		"/var/www/admin.theatreinterface/docker-compose.yml",
+		"/var/www/admin.theatreinterface/Dockerfile",
+		"/var/www/admin.theatreinterface/dump.sql",
+		"/var/www/admin.theatreinterface/gunicorn_start.sh",
+		"/var/www/admin.theatreinterface/interface.sql",
+		"/var/www/admin.theatreinterface/json.all",
+		"/var/www/admin.theatreinterface/manage.py",
+		"/var/www/admin.theatreinterface/pre-commit.sh",
+		"/var/www/admin.theatreinterface/supervisorinterface.conf",
+		"/var/www/admin.theatreinterface/.gitignore",
+		"/var/www/musee/machine_a_remonter_le_temps/tile/.pitile",
+		"/var/www/musee/machine_a_remonter_le_temps/requirements.py",
+		"/var/www/musee/machine_a_remonter_le_temps/tile/.piwall",
+		"/var/www/musee/machine_a_remonter_le_temps/boot.py",
+		"/var/www/musee/machine_a_remonter_le_temps/boot2.py",
+		"/var/www/compagnieinterface/sandbox/settings.py",
+		"/var/www/myriamfournier/.env",
+		"/var/www/myriamfournier/env.example",
+		"/var/www/myriamfournier/docker-compose.yml",
+		"/var/www/myriamfournier/compose/nginx/nginx.conf",
+		"/var/www/myriamfournier/myriamfournier/static/css/template-style.css",
+		"/var/www/myriamfournier/config/settings/production.py",
+		"/var/www/myriamfournier/config/settings/common.py",
+		"/var/www/myriamfournier/myriamfournier/content/tests.py",
+		"/var/www/myriamfournier/myriamfournier/static/css/responsee.css",
+		"/var/www/myriamfournier/staticfiles/css/template-style.css",
+		"/var/www/myriamfournier/config/settings/local.py",
+		"/var/www/myriamfournier/myriamfournier/content/models.py",
+		"/var/www/myriamfournier/myriamfournier/content/admin.py",
+		"/var/www/myriamfournier/config/urls.py",
+		"/var/www/myriamfournier/TODO",
+		"/var/www/myriamfournier/requirements/base.txt",
+		"/var/www/myriamfournier/myriamfournier/templates/base.html",
+		"/var/www/myriamfournier/myriamfournier/static/design-theme/css/owl.carousel.css",
+		"/var/www/myriamfournier/Dockerfile",
+		"/var/www/myriamfournier/compose/django/entrypoint.sh",
+		"/var/www/myriamfournier/myriamfournier/templates/contact.html",
+		"/var/www/myriamfournier/myriamfournier/static/css/components.css",
+		"/var/www/myriamfournier/myriamfournier/static/js/owl.carousel.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/owl.carousel.min.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/contact.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/contact.min.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/project.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/project.min.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/responsee.min.js",
+		"/var/www/myriamfournier/myriamfournier/static/design-theme/contact.html",
+		"/var/www/myriamfournier/myriamfournier/static/css/project.css",
+		"/var/www/myriamfournier/myriamfournier/static/css/main.css",
+		"/var/www/myriamfournier/myriamfournier/content/urls.py",
+		"/var/www/myriamfournier/myriamfournier/templates/index.html",
+		"/var/www/myriamfournier/myriamfournier/static/js/responsee.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/jquery-1.8.3.min.js",
+		"/var/www/myriamfournier/myriamfournier/templates/miniblog/blog_list.html",
+		"/var/www/myriamfournier/myriamfournier/templates/flatpages/default.html",
+		"/var/www/myriamfournier/myriamfournier/users/admin.py",
+		"/var/www/myriamfournier/myriamfournier/taskapp/celery.py",
+		"/var/www/myriamfournier/myriamfournier/content/views.py",
+		"/var/www/myriamfournier/myriamfournier/miniblog/urls.py",
+		"/var/www/myriamfournier/myriamfournier/content/templatetags/hack_tags.py",
+		"/var/www/myriamfournier/myriamfournier/static/js/floatlabel.js",
+		"/var/www/myriamfournier/myriamfournier/static/js/floatlabel.min.js",
+		"/var/www/myriamfournier/myriamfournier/templates/plan.html",
+		"/var/www/myriamfournier/myriamfournier/templates/500.html",
+		"/var/www/myriamfournier/myriamfournier/templates/404.html",
+		"/var/www/myriamfournier/myriamfournier/static/css/owl.carousel.css",
+		"/var/www/myriamfournier/myriamfournier/static/design-theme/index.html",
+		"/var/www/myriamfournier/myriamfournier/templates/flatpages/plan.html",
+		"/var/www/myriamfournier/dev.yml",
+		"/var/www/myriamfournier/myriamfournier/static/design-theme/css/template-style.css",
+		"/var/www/myriamfournier/myriamfournier/static/design-theme/css/components.css",
+		"/var/www/myriamfournier/myriamfournier/templates/base_old.html",
+		"/var/www/myriamfournier/myriamfournier/content/fixtures/initial_data.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compagnie:",
+			"urls",
+			"compagnie",
+			"compagnie.urls_all",
+			"compagnie",
+			"middleware",
+			"adress",
+			"customordermixin",
+			"',",
+			"VenueEventsGroup",
+			"through",
+			":\n",
+			"\n        pass",
+			"distribution(",
+			"customordermixin",
+			"_old_pk",
+			"distribution",
+			"urllib2",
+			"eventdistribution",
+			"customorder",
+			"companymembers",
+			"through",
+			"Meta",
+			"_meta",
+			"meta",
+			"_meta",
+			"through",
+			"migrate_",
+			"ShowCompany",
+			"Show",
+			"showsgroup",
+			"showgroup",
+			"ShowGroup",
+			"mea_compagnie",
+			"host",
+			"user",
+			"mail",
+			"email",
+			"balconduciel.Festival",
+			"URL",
+			"while",
+			"...",
+			"movie",
+			"video",
+			"submenu",
+			"active",
+			"hover",
+			"middleware",
+			"STATIFILES_STORAGE",
+			"height: 2.7",
+			"map",
+			"url 'hypnose'",
+			"right",
+			"tabs",
+			"href",
+			"link",
+			"show-ul",
+			"show-ul\n",
+			"show-ul",
+			"show-menu",
+			"aria",
+			" nav ",
+			"debug_toolbar",
+			"indications",
+			"flaturl",
+			"Hack_tag",
+			"hack_tag",
+			"template",
+			"hypnose",
+			"menu",
+			"hover",
+			"template",
+			"in)",
+			"in",
+			"0.04",
+			"active",
+			"icon",
+			"plan",
+			"getprevent",
+			"état hypnotique",
+			"carous",
+			"seconc-small"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"compagnieinterface:",
+			"trough",
+			"get_migrated_",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/admin.theatreinterface/sandbox/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3158,
+								3158
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/admin.theatreinterface/sandbox/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "boot.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sandsett",
+				"sandbox/settings.py"
+			],
+			[
+				"compagnisett",
+				"compagnie/settings.py"
+			],
+			[
+				"balcsett",
+				"balconduciel/settings.py"
+			],
+			[
+				"showsmodels",
+				"shows/models.py"
+			],
+			[
+				"compmodels",
+				"compagnie/models.py"
+			],
+			[
+				"tempspecfestival",
+				"templates/spectacles_lieux_bdd/festival_list.html"
+			],
+			[
+				"specmodels",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"sandburls",
+				"sandbox/urls.py"
+			],
+			[
+				"compagnsett",
+				"compagnie/settings.py"
+			],
+			[
+				"irpurl",
+				"iproduction/urls.py"
+			],
+			[
+				"balcurls",
+				"balconduciel/urls.py"
+			],
+			[
+				"sandurl",
+				"sandbox/urls.py"
+			],
+			[
+				"balconurls",
+				"balconduciel/urls.py"
+			],
+			[
+				"bddmodel",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"sandurls",
+				"sandbox/urls.py"
+			],
+			[
+				"sandboxsett",
+				"sandbox/settings.py"
+			],
+			[
+				"compagurls",
+				"compagnie/urls.py"
+			],
+			[
+				"settings",
+				"sandbox/settings.py"
+			],
+			[
+				"requirebase",
+				"requirements/base.txt"
+			],
+			[
+				"balcurl",
+				"balconduciel/urls.py"
+			],
+			[
+				"balconviews",
+				"balconduciel/views.py"
+			],
+			[
+				"views",
+				"balconduciel/views.py"
+			],
+			[
+				"balcmenu",
+				"templates/balconduciel/menu.html"
+			],
+			[
+				"showsadm",
+				"shows/admin.py"
+			],
+			[
+				"models",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"settin",
+				"sandbox/settings.py"
+			],
+			[
+				"showmodels",
+				"show/models.py"
+			],
+			[
+				"spemodel",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"showsmode",
+				"shows/models.py"
+			],
+			[
+				"admin",
+				"balconduciel/admin.py"
+			],
+			[
+				"sandset",
+				"sandbox/settings.py"
+			],
+			[
+				"showmodel",
+				"shows/models.py"
+			],
+			[
+				"showmigra",
+				"shows/migrate.py"
+			],
+			[
+				"sandboxurl",
+				"sandbox/urls.py"
+			],
+			[
+				"theurl",
+				"theatre/urls.py"
+			],
+			[
+				"comurl",
+				"compagnie/urls.py"
+			],
+			[
+				"comview",
+				"compagnie/views.py"
+			],
+			[
+				"calen",
+				"templates/compagnie/calendar.html"
+			],
+			[
+				"menu",
+				"static/menus/menu_nav.php"
+			],
+			[
+				"resermodels",
+				"reservations/models.py"
+			],
+			[
+				"resermodel",
+				"reservations/models.py"
+			],
+			[
+				"spemode",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"balcforms",
+				"balconduciel/forms.py"
+			],
+			[
+				"requi",
+				"requirements/base.txt"
+			],
+			[
+				"resermail",
+				"templates/reservations/mail.txt"
+			],
+			[
+				"balview",
+				"balconduciel/views.py"
+			],
+			[
+				"form",
+				"balconduciel/forms.py"
+			],
+			[
+				"sanset",
+				"sandbox/settings.py"
+			],
+			[
+				"specmodel",
+				"spectacles_lieux_bdd/models.py"
+			],
+			[
+				"urls",
+				"balconduciel/urls.py"
+			],
+			[
+				"balinde",
+				"templates/balconduciel/index.html"
+			],
+			[
+				"eventsgroup",
+				"templates/spectacles_lieux_bdd/eventsgroup_detail.html"
+			],
+			[
+				"main.css",
+				"static/css/main.css"
+			],
+			[
+				"balconmodels",
+				"balconduciel/models.py"
+			],
+			[
+				"festival",
+				"templates/spectacles_lieux_bdd/festival_list.html"
+			],
+			[
+				"view",
+				"balconduciel/views.py"
+			],
+			[
+				"url",
+				"balconduciel/urls.py"
+			],
+			[
+				"eventsgroupdeta",
+				"templates/spectacles_lieux_bdd/eventsgroup_detail.html"
+			],
+			[
+				"event",
+				"templates/compagnie/eventsgroup_detail.html"
+			],
+			[
+				"festival_list",
+				"templates/spectacles_lieux_bdd/festival_list.html"
+			],
+			[
+				"reservat",
+				"reservations/forms.py"
+			],
+			[
+				"balconducielmodels",
+				"balconduciel/models.py"
+			],
+			[
+				"festival_li",
+				"templates/spectacles_lieux_bdd/festival_list.html"
+			],
+			[
+				"main",
+				"static/css/main.css"
+			],
+			[
+				"base",
+				"templates/base.html"
+			],
+			[
+				"model",
+				"balconduciel/models.py"
+			],
+			[
+				"templaspecta",
+				"templates/spectacles_lieux_bdd/festival_list.html"
+			],
+			[
+				"settings.py",
+				"sandbox/settings.py"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"docker-compose.yml",
+				"docker-compose.yml"
+			],
+			[
+				"env.exa",
+				"env.example"
+			],
+			[
+				"nginx.conf",
+				"compose/nginx/nginx.conf"
+			],
+			[
+				"template-style",
+				"myriamfournier/static/css/template-style.css"
+			],
+			[
+				"template-style.css",
+				"staticfiles/css/template-style.css"
+			],
+			[
+				"commo",
+				"config/settings/common.py"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"entry",
+				"compose/django/entrypoint.sh"
+			],
+			[
+				"base.h",
+				"myriamfournier/templates/base.html"
+			],
+			[
+				"docker",
+				"Dockerfile"
+			],
+			[
+				"dockerfile",
+				"Dockerfile"
+			],
+			[
+				"requirements",
+				"requirements/base.txt"
+			],
+			[
+				"component",
+				"myriamfournier/static/css/components.css"
+			],
+			[
+				"contact",
+				"myriamfournier/static/design-theme/contact.html"
+			],
+			[
+				"index",
+				"myriamfournier/templates/index.html"
+			],
+			[
+				"response",
+				"myriamfournier/static/js/responsee.js"
+			],
+			[
+				"response.js",
+				"myriamfournier/static/js/responsee.js"
+			],
+			[
+				"base.thml",
+				"myriamfournier/templates/base.html"
+			],
+			[
+				"index.html",
+				"myriamfournier/templates/index.html"
+			],
+			[
+				"contact.html",
+				"myriamfournier/templates/contact.html"
+			],
+			[
+				"base.html",
+				"myriamfournier/templates/base.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/admin.theatreinterface/sublime/admin.theatreinterface.sublime-project"
+			],
+			[
+				"admin",
+				"/var/www/admin.theatreinterface/sublime/admin.theatreinterface.sublime-project"
+			],
+			[
+				"admin.theatre",
+				"/var/www/admin.theatreinterface/sublime/admin.theatreinterface.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
